@@ -14,4 +14,6 @@
 
 Проект создан на Unity версии 2021.3.16f1. 
 
+Ссылка на [демонстрация работы (youtude)](https://youtu.be/zoyLIcAZ3uw).
+
 Ссылка на [AndroidBuild (google disk)](https://drive.google.com/file/d/1oeJ-IMkgXLdYetq0bXqS-gN2Yiiho1PM/view?usp=sharing).
