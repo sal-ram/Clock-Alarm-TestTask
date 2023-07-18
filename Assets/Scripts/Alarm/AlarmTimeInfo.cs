@@ -12,11 +12,6 @@ namespace Assets.Scripts
         {
             Sec += sec;
 
-            /*if (Sec >= _totalAmountOfSec)
-                Sec -= _totalAmountOfSec;
-            else if(Sec < 0)
-                Sec += _totalAmountOfSec;*/
-
             if (Sec >= _totalAmountOfSec)
                 Sec %= _totalAmountOfSec;
             else if (Sec < 0)
