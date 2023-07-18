@@ -22,14 +22,14 @@ namespace Assets.Scripts
             if (Min >= _totalAmountOfMin)
                 Min %= _totalAmountOfMin;
             else if (Min < 0)
-                Min += _totalAmountOfMin + Min % _totalAmountOfMin;
+                Min = _totalAmountOfMin + Min % _totalAmountOfMin;
 
             Hour += hour;
 
             if (Hour >= _totalAmountOfHour)
                 Hour %= _totalAmountOfHour;
             else if (Hour < 0)
-                Hour += _totalAmountOfHour + Hour % _totalAmountOfHour;
+                Hour = _totalAmountOfHour + Hour % _totalAmountOfHour;
         }
 
         public void UpdateTimeFromDigit(float hour, float min, float sec)
